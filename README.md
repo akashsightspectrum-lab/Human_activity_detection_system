@@ -54,22 +54,7 @@ New radar data → processed → converted to image
 
 Model predicts the human activity
 
-📂 Project Structure
-├── data/
-│   ├── raw/                # Raw mmWave data
-│   ├── processed/          # Frequency converted data
-│   └── images/             # PNG images for training
-│
-├── models/                 # Trained models
-├── notebooks/              # Jupyter notebooks (EDA, training)
-├── src/
-│   ├── preprocessing.py    # Signal processing & FFT
-│   ├── image_gen.py        # Convert frequency to PNG
-│   ├── train.py            # Model training
-│   └── predict.py          # Inference script
-│
-├── requirements.txt
-└── README.md
+
 ⚙️ Tech Stack
 
 Python
@@ -100,12 +85,11 @@ Quenching
 🛠️ Installation
 git clone https://github.com/akashsightspectrum-lab/Human_activity_detection_system.git
 cd Human_activity_detection_system
-pip install -r requirements.txt
-▶️ Usage
-Train Model
-python src/train.py
+install the requirements diretly from radiowave_detectron.ipynb file
+
+Train Model then
 Run Prediction
-python src/predict.py
+
 📈 Future Improvements
 
 Add more activity classes
