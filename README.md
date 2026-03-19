@@ -83,6 +83,7 @@ Running
 Quenching
 
 🛠️ Installation
+Dont forgot to install Detectron from respected repo
 git clone https://github.com/akashsightspectrum-lab/Human_activity_detection_system.git
 cd Human_activity_detection_system
 install the requirements diretly from radiowave_detectron.ipynb file
